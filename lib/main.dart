@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                               ? null
                               : () async {
                                   String apiKey =
-                                      "AIzaSyCbmh_dvgE8GYpleaKZgpdpDMeAHn03WU4";
+                                      "PUT_YOUR_API_KEY_HERE";
 
                                   final model = GenerativeModel(
                                       model: 'gemini-pro', apiKey: apiKey);
